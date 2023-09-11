@@ -17,14 +17,14 @@ ________________________________________________________________________________
 * The console can be run in both interactive and non-interactive mode.
 * It prints a prompt (hbnb) and waits for the user for input.
 
-Example of Interactive Mode
+Example of Interative Mode
 
 $ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
-========================================
-EOF  help  quit
+=======================================
+EOF help quit
 
 (hbnb)
 (hbnb)
@@ -36,7 +36,8 @@ $ echo "help" | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
-========================================
+=======================================
+
 EOF  help  quit
 (hbnb)
 $
@@ -47,7 +48,7 @@ $ cat test_help | ./console.py
 (hbnb)
 
 Documented commands (type help <topic>):
-========================================
+=======================================
+
 EOF  help  quit
 (hbnb)
-
