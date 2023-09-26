@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /****************************************************************************/
 /* reset css */
 /****************************************************************************/
@@ -69,4 +70,18 @@ span {
 		max-width: 1920px;
 		margin: 0 auto;
 	}
+=======
+body {
+	margin:0px;
+	padding:0px;
+
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+>>>>>>> d3a826f8b124d0c4796927c7b15cdba331385857
 }

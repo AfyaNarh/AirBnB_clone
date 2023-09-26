@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
 }
 
@@ -28,4 +29,15 @@ footer {
 footer p {
   color: #484848;
   text-align: center;
+=======
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	line-height: 30px;
+	border-top: 1px solid #CCCCCC;
+>>>>>>> d3a826f8b124d0c4796927c7b15cdba331385857
 }
