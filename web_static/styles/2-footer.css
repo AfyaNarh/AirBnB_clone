@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+footer{
+    Background-color:#00FF00;
+    height:60px;
+    width:100%;
+    position: absolute;
+    bottom:0;
+    text-align:center;
+    line-height:60px
+=======
 footer {
 	position: fixed;
 	bottom: 0;
@@ -6,4 +16,5 @@ footer {
 	width: 100%;
 	text-align: center;
 	line-height: 30px;
+>>>>>>> d3a826f8b124d0c4796927c7b15cdba331385857
 }

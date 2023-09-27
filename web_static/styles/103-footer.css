@@ -1,3 +1,35 @@
+<<<<<<< HEAD
+@media only screen and (max-width: 600px) {
+}
+
+/*mall devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+footer {
+  clear: left;
+  height: 60px;
+  width: 100%;
+  border-top: 1px solid #CCCCCC;
+  display: flex;
+  background-color: #FFF;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #484848;
+  text-align: center;
+=======
 footer {
 	position: fixed;
 	bottom: 0;
@@ -7,4 +39,5 @@ footer {
 	text-align: center;
 	line-height: 30px;
 	border-top: 1px solid #CCCCCC;
+>>>>>>> d3a826f8b124d0c4796927c7b15cdba331385857
 }
