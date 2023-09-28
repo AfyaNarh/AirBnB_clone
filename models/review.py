@@ -1,16 +1,25 @@
 #!/usr/bin/python3
+"""
+    Review modules
+"""
 from models.base_model import BaseModel
+from uuid import UUID
+
 
 class Review(BaseModel):
-    """Represents a review.
-
-    Attributes:
-        place_id (str): The ID of the place being reviewed.
-        user_id (str): The ID of the user who wrote the review.
-        text (str): The text content of the review.
     """
-   
-        place_id = ""
-        user_id = ""
-        text = ""
+        class Review:
+            Attribute:
+                place_id : id(str)
+                user_id : user id(str)
+                text : str
+    """
+    place_id = ""
+    user_id = ""
+    text = ""
 
+    def _init_(self, *args, **kwargs):
+        """
+            init
+        """
+        super()._init_(*args, **kwargs)
